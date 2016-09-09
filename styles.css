@@ -153,9 +153,10 @@ body {
 
 .bottom-bar {
   width: 100%;
-  position: absolute;
-  bottom: 0;
+  /*position: absolute;
+  bottom: 0;*/
   height: 120px;
+  margin-top: 40px;
   background-color: darkgrey;
 }
 
@@ -179,4 +180,18 @@ body {
   border-radius: 3px;
   margin: 38px 64px 0 64px;
   text-align: center;
+}
+
+.credits-bar {
+  height: 12px;
+  line-height: 12px;
+  width: 100%;
+  background-color: white;
+}
+
+.credits-line {
+  font-size: 8px;
+  padding-right: 4px;
+  color: grey;
+  float: right;
 }
