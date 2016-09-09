@@ -1,0 +1,182 @@
+body {
+  font-size: 14px;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 100%;
+  padding: 0;
+  height: 100vh;
+  position: relative;
+}
+
+.ur-logo {
+  text-align: center;
+  font-weight: bolder;
+}
+
+.escape {
+  font-size: 2em;
+}
+
+.from-the {
+  font-size: 0.75em;
+  font-style: italic;
+}
+
+.dead {
+  font-size: 2em;
+}
+
+.banner-wrapper {
+  width: 100%;
+}
+
+.book-button-row {
+  margin: 32px 0 32px 0;
+}
+
+.book-button {
+  text-align: center;
+  height: 44px;
+  line-height: 44px;
+  cursor: pointer;
+  border-radius: 3px;
+  background-color: darkred;
+  color: white;
+  font-weight: bold;
+  margin: 4px 32px 4px 32px;
+}
+
+.main-content-wrapper,
+.row-12 {
+  max-width: 100%;
+  padding: 0;
+  margin: 0;
+  min-height: 1px;
+}
+
+.column-1,
+.column-2,
+.column-3,
+.colunm-4,
+.column-5,
+.column-6,
+.column-7,
+.column-8,
+.column-9,
+.column-10,
+.column-11,
+.column-12 {
+  float: left;
+  min-height: 1px;
+}
+
+.column-1 {
+  width: 8.3%;
+}
+
+.column-2 {
+  width: 16.6%;
+}
+
+.column-3 {
+  width: 25%;
+}
+
+.column-4 {
+  width: 33%;
+}
+
+.column-6 {
+  width: 50%;
+}
+
+.column-7 {
+  width: 58.3%;
+}
+
+.column-8 {
+  width: 66.6%;
+}
+
+.column-9 {
+  width: 66.6%;
+}
+
+.column-10 {
+  width: 83.3%;
+}
+
+.content-container {
+  padding: 0 12px 0 12px;
+}
+
+.clearfix {
+  clear: both;
+}
+
+.about-box {
+  background-color: black;
+  color: white;
+}
+
+.about-title {
+  text-align: center;
+  font-family: Helvetica;
+  font-weight: bold;
+  padding: 8px;
+  border-bottom: white;
+}
+
+.about-text {
+  padding: 16px;
+}
+
+.menu-item {
+  text-align: center;
+  height: 84px;
+  line-height: 84px;
+  min-width: 118px;
+  font-family: Helvetica;
+  font-weight: bold;
+  cursor: pointer;
+  float: right;
+}
+
+.menu-item:hover {
+  text-decoration: underline;
+}
+
+.bottom-bar {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  height: 120px;
+  background-color: darkgrey;
+}
+
+.address-info {
+  margin-top: 30px;
+  font-size: 16px;
+}
+
+.map-with-border {
+  border: 1px solid white;
+  margin: 4px 0 4px 0;
+}
+
+.get-directions-btn {
+  height: 44px;
+  line-height: 44px;
+  font-weight: bold;
+  cursor: pointer;
+  background-color: darkblue;
+  color: white;
+  border-radius: 3px;
+  margin: 38px 64px 0 64px;
+  text-align: center;
+}
